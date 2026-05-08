@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SweetCartSuite">
+    <test name="LoginTests">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    <test name="ProductTests">
+        <classes>
+            <class name="tests.ProductTest"/>
+        </classes>
+    </test>
+    <test name="Navigation Module Tests">
+        <classes>
+            <class name="tests.NavigationTest"/>
+        </classes>
+    </test>
+</suite>
